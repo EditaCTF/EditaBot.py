@@ -2,14 +2,14 @@
 Edita Bot is a Discord bot designed for use in cybersecurity Capture The Flag (CTF) events. It manages team functionalities, questions, and scores, and interacts with users through various commands.
 
 ## Features
-**Team Management:** Create, join, leave, and delete teams; assign Discord roles for teams.
-**Question Management:** Add, display, and delete CTF questions with flags.
-**Flag Submission:** Submit flags for challenges and get instant feedback.
-**Leaderboards:** View user and team leaderboards.
-**AI Assistant:** Ask questions to an integrated Gemini AI chatbot.
-**Utilities:** Base64 encoding/decoding, ping, event scheduling, and more.
-**Admin Commands:** Announcements, data inspection, and advanced team/question controls.
-**Event Integration:** Fetch and schedule CTF events from CTFTime.
+- **Team Management:** Create, join, leave, and delete teams; assign Discord roles for teams.
+- **Question Management:** Add, display, and delete CTF questions with flags.
+- **Flag Submission:** Submit flags for challenges and get instant feedback.
+- **Leaderboards:** View user and team leaderboards.
+- **AI Assistant:** Ask questions to an integrated Gemini AI chatbot.
+- **Utilities:** Base64 encoding/decoding, ping, event scheduling, and more.
+- **Admin Commands:** Announcements, data inspection, and advanced team/question controls.
+- **Event Integration:** Fetch and schedule CTF events from CTFTime.
 
 Setup
 Prerequisites
@@ -67,8 +67,8 @@ Usage
 ```
 
 ## Customization
-**Modular Design:** Add new commands or features by creating new modules under bot/commands/.
-**AI Integration:** The bot uses Gemini AI for /askai and related features. Configure your API key in .env.
+- **Modular Design:** Add new commands or features by creating new modules under bot/commands/.
+- **AI Integration:** The bot uses Gemini AI for /askai and related features. Configure your API key in .env.
 
 ## Contributing
 Contributions are welcome! Please open an issue or a pull request to suggest improvements or report bugs.
