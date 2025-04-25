@@ -14,7 +14,7 @@ from bot.commands.utility import setup_utility_commands
 
 load_dotenv()
 gemini_api = os.getenv("GEMINI_API_KEY")
-discord_token = os.getenv("DISCORD_TEST_BOT")
+discord_token = os.getenv("DISCORD_TOKEN")
 
 intents = discord.Intents.default()
 intents.message_content = True
